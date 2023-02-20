@@ -1,0 +1,101 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de producto */
+
+.producto {
+    background-color: tomato;
+}
+
+/* estilos de LA CAJA */
+
+.laCaja {
+    background-color: whitesmoke;
+}
+
+/* estilos de caja */
+
+.caja {
+    background-color: thistle;
+    width: 200px;
+    height: 200px;
+
+    /* propiedad margin */
+    margin: 10px 20px 30px 40px;
+    padding: 50px;
+    border: 5px solid pink;
+    display: inline-block;
+}
+
+.ejemplo {
+    margin: 200px;
+    width: 100px;
+    height: 50px;
+    background-color: tomato;
+    overflow: auto;
+}
+
+span {
+    background-color: tomato;
+    display: none;
+}
+
+/* ejemplo de position */
+
+.item-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.item-absolute {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/* estilos del menu*/
+
+.menu{
+    margin-top: 100px;
+    background-color: coral;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.menu ul li{
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+
+    display: inline-block ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* propiedades del contenedor */
+
+.contenedor {
+    height: 600px;
+    background-color: tomato;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    
+    grid-template-areas: 
+        "header header header"
+        "main main div"
+        "section section div"
+        "footer footer footer";
+}
+
+
+/* propiedades de los hijos */
+
+.hijos-uno {
+    background-color: pink;
+    grid-area: header;
+}
+
+.hijos-dos {
+    background-color: rgb(255, 115, 138);
+    grid-area: main;
+}
+
+.hijos-tres {
+    background-color: rgb(252, 30, 67);
+    grid-area: div;
+}
+
+.hijos-cuatro {
+    background-color: rgb(252, 5, 46);
+    grid-area: section;
+}
+
+.hijos-cinco {
+    background-color: rgb(88, 0, 15);
+    grid-area: footer;
+}
+
+/* estilos de ejemplo */
+
+.ejemplo {
+    background-color: tomato;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+/* estilos de hijo */
+
+.hijo-uno {
+    justify-self: left;
+    align-self: start;
+}
+
+.hijo-cuatro {
+    justify-self: right;
+    align-self: start;
+}
+
+/* estilos ejemplo-dos */
+
+.contain {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 0.3fr 2fr 2fr 0.3fr;
+
+    grid-template-areas: 
+        "header header header header"
+        "main main main section"
+        "main main main section"
+        "footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: pink;
+    display: flex;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(255, 131, 152);
+}
+
+section {
+    grid-area: section;
+    background-color: rgb(253, 78, 107);
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(255, 25, 64);
+}

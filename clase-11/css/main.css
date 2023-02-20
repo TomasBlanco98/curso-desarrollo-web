@@ -1,0 +1,13 @@
+/* estilos del menu */
+.color-menu {
+    background-color: tomato;
+}
+
+.color-boton {
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+.color-boton:hover {
+    background-color: rgb(131, 46, 31);
+}
